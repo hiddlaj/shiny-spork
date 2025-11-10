@@ -5,4 +5,4 @@ on:
 
 jobs:
   run-test:
-    uses: hiddlaj/acg-gh-actions/.github/workflows/test.yml
+    uses: hiddlaj/acg-gh-actions/.github/workflows/test.yml@main
