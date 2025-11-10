@@ -4,8 +4,5 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-tests:
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v4
+  run-test:
+    uses: hiddlaj/acg-gh-actions/.github/workflows/test.yml
