@@ -1,0 +1,10 @@
+name: 📱 Run Tests
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-test:
+    runs-on: ubuntu-latest
+    uses:
+      hiddlaj/acg-gh-actions/.github/workflows/test.yml
