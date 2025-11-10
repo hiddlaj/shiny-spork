@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: hiddlaj/acg-gh-actions/.github/workflows/test.yml@main
+    - uses: actions/checkout@v4
