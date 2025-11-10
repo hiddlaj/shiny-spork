@@ -6,6 +6,4 @@ on:
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-    steps:
-      - name: test1
-        uses: hiddlaj/acg-gh-actions/.github/workflows/test.yml@main
+    uses: hiddlaj/acg-gh-actions/.github/workflows/test.yml@main
